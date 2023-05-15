@@ -1,12 +1,10 @@
-function main() 
-{
+function main() {
     console.log("nicks-cors-test");
     $.ajax
-    ({
-        url: "https://api.github.com",
-        success: function(data) 
-        {
-            console.log(data);
-        }
-    });
+        ({
+            url: "https://rm-spa-static.internal.realmadrid.es/sobre-el-real-madrid/historia",
+            success: function (data) {
+                console.log(data);
+            }
+        });
 }
